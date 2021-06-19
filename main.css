@@ -1,0 +1,186 @@
+:root {
+    --clr-text: #f8dace;
+    --clr-text-hover: #f49971;
+    --clr-text-active: rgb(34, 50, 102);
+    --clr-primary: #f05e23;
+    --clr-primary-light: ;
+    --clr-accent: ;
+    --clr-accent-dark: ;
+    --ff-title: 'VT323', monospace;
+    ;
+    --ff-serif: 'VT323', monospace;
+    ;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 120%;
+    font-family: var(--ff-serif);
+    color: var(--clr-text);
+}
+
+body {
+    background-color: var(--clr-primary);
+    margin: 0;
+    padding: 0;
+    color: var(--clr-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-text);
+}
+
+a:active {
+    color: var(--clr-text-active);
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    margin: 0.6em;
+    justify-content: space-between;
+}
+
+.nav-list-items li {
+    display: inline-block;
+    margin: 0.4em;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--clr-text);
+}
+
+.header-main-big {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+    width: auto;
+}
+
+.header-main-text {
+    margin-top: -3.5em;
+    margin-bottom: 2em;
+}
+
+.header-main-select-menu,
+.header-select {
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.header-select select {
+    border: 1px solid black;
+    max-width: 32em;
+    width: 90%;
+    color: var(--clr-primary);
+    background-color: var(--clr-text);
+    font-family: var(--ff-serif);
+    border: none;
+    height: 2em;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding-left: 0.5em;
+    outline: none;
+}
+
+.header-button {
+    /* border: 1px solid black; */
+    margin-top: 2em;
+}
+
+.header-button button {
+    width: 6em;
+    height: 2em;
+    font-family: var(--ff-serif);
+    font-size: 1.1rem;
+    border-radius: 5px;
+    color: var(--clr-text);
+    background-color: var(--clr-primary);
+    border: 3px solid var(--clr-text);
+}
+
+.header-button button:active {
+    color: var(--clr-text-active);
+    border: 3px solid var(--clr-text-active);
+}
+
+
+/* ------------------ */
+
+
+/* ------------------ */
+
+
+/* Media Queries widths*/
+
+
+/* ------------------ */
+
+
+/* ------------------ */
+
+@media only screen and (min-width: 742px) {
+    html {
+        font-size: 140%;
+    }
+}
+
+@media only screen and (min-width: 1043px) {
+    html {
+        font-size: 160%;
+    }
+}
+
+
+/* ------------------ */
+
+
+/* ------------------ */
+
+
+/* Media Queries heights*/
+
+
+/* ------------------ */
+
+
+/* ------------------ */
+
+@media only screen and (min-height: 660px) {
+    .header-main-select-menu {
+        margin-top: 1em;
+    }
+    .header-button {
+        margin-top: 3em;
+    }
+}
