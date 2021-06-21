@@ -3,7 +3,7 @@
     --clr-text-hover: #f49971;
     --clr-text-active: rgb(34, 50, 102);
     --clr-primary: #f05e23;
-    --clr-primary-light: #f05d2379;
+    --clr-primary-light: ;
     --clr-accent: ;
     --clr-accent-dark: ;
     --ff-title: 'VT323', monospace;
@@ -139,18 +139,42 @@ h1 {
     color: var(--clr-primary);
     text-align: center;
     padding-top: 1.5em;
+<<<<<<< HEAD
     /* margin-left: 0.2em;
     margin-right: 0.2em; */
     border-radius: 20px;
     padding-bottom: 4em;
     border: 1px solid black;
     height: auto;
+=======
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    border-radius: 5px;
+}
+
+.section-providers img {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 2px dashed var(--clr-primary)
+}
+
+.section-providers figure {
+    width: 100%;
+    padding: 0;
+    margin: 1.5em 0;
+>>>>>>> parent of f6fd7be (maps layout before functioning carousel)
 }
 
 .section-prov-title {
     max-width: 40em;
     width: 100%;
+<<<<<<< HEAD
     margin: 1.5em auto;
+=======
+    margin: 1em auto;
+>>>>>>> parent of f6fd7be (maps layout before functioning carousel)
     text-align: center;
     /* border: 1px solid black; */
     line-height: 2em;
@@ -164,6 +188,7 @@ h1 {
     /* border: 1px solid black; */
 }
 
+<<<<<<< HEAD
 .section-carousel-maps {
     border: 1px solid blueviolet;
     /* height: 20em; */
@@ -294,6 +319,11 @@ h1 {
 
 .other-map-title {
     display: none;
+=======
+.section-prov-maps {
+    /* border: 1px solid black; */
+    margin-top: 2.5em;
+>>>>>>> parent of f6fd7be (maps layout before functioning carousel)
 }
 
 
@@ -311,86 +341,15 @@ h1 {
 
 /* ------------------ */
 
-@media only screen and (min-width: 387px) {
-    .carousel-container {
-        height: 20em;
-    }
-}
-
-@media only screen and (min-width: 531px) {
-    .carousel-container {
-        height: 25em;
-    }
-}
-
-@media only screen and (min-width: 616px) {
-    .carousel-container {
-        height: 30em;
-    }
-}
-
 @media only screen and (min-width: 742px) {
     html {
         font-size: 140%;
-    }
-    .carousel-title {
-        font-size: 1.7em;
     }
 }
 
 @media only screen and (min-width: 1043px) {
     html {
         font-size: 160%;
-    }
-    .carousel-text {
-        width: 95%;
-        /* border: 2px solid black; */
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-start;
-        height: 1.5em;
-        vertical-align: top;
-        /* margin-top: -2em; */
-    }
-    .carousel-text p {
-        /* border: solid 1px hotpink; */
-        margin-top: -0.05em;
-    }
-    .carousel-nav {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 1085px) {
-    .carousel-container {
-        /* border: 1px blue solid; */
-        padding: 0;
-        width: 95%;
-        height: auto;
-    }
-    .carousel-container ul {
-        /* border: 1px solid black; */
-        display: flex;
-        justify-content: space-around;
-        height: auto;
-    }
-    .carousel-container li {
-        /* border: 1px solid yellowgreen; */
-        display: block;
-    }
-    .carousel-container img {
-        position: static;
-        width: 82%;
-    }
-    .carousel-container img:first-of-type {
-        padding-left: 0;
-    }
-    .other-map-title {
-        display: block;
-    }
-    .carousel-nav {
-        display: none;
     }
 }
 
