@@ -153,7 +153,7 @@ nav ul li {
 .header-search button {
     margin: auto;
     /* margin-top: 3em; */
-    width: 6em;
+    width: 7em;
     height: 2em;
     font-size: 0.9rem;
     background-color: rgb(255, 255, 255);
@@ -381,7 +381,7 @@ footer img {
     text-align: center;
 }
 
-. @media only screen and (max-height: 500px) {
+@media only screen and (max-height: 500px) {
     .header-search {
         height: 500px;
     }
